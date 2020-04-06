@@ -1,0 +1,182 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #009CA6;
+}
+
+.info-cap{
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 700;
+    color: #009CA6;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.info {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.contact-text{
+    text-align: center;
+    font-family: 'Lora', serif;
+    line-height: 3em;
+}
+
+.img-anna{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.info-text{
+    font-family: 'Lora', serif;
+    line-height: 35px;
+    color: darkslategrey;
+    text-align: center;
+}
+
+.text-area{
+    font-family: 'Lora', serif;
+    line-height: 28px;
+    color: darkslategrey;
+}
+
+.text-servicio{
+    font-family: 'Lora', serif;
+    line-height: 28px;
+    color: darkslategrey;
+}
+
+.am-separador{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.aligned{
+    font-size: 2em;
+    color: #009CA6;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.aligned::before{
+    content: "\201C";
+    position: relative;
+    left:-.5%;
+    margin-left: -5%;
+    
+}
+  
+.aligned::after{
+    content: "\201d";
+}
+
+.quote{
+    font-size: 0.9em;
+    color: #8697b3;
+    font-family: courier, mono-space;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quote::before{
+    content: "\201C";
+}
+
+.quote::after{
+    content: "\201D";
+}
+
+/*FOOTER*/
+
+.footer {
+    background: #009CA6;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer-index {
+    background: rgba(0,0,0,0.5);
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle i {
+  color: #009CA6;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
+/*TESTIMONIAL*/
+
+
+.carousel{
+    margin-top: 60px;
+  }
+  .carousel-inner{
+    height: 500px;
+    text-align: center;
+  }
+  .carousel-caption{
+    color: #009CA6;
+    top: 50%;
+  }
+
+  .lora{
+      font-family: 'Lora', serif;
+      font-size: 1.5em;
+  }
